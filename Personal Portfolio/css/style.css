@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Clear Sans';
+}
+.navbar{
+    background: #f6f6f6;
+    padding: 0 15px 0 15px;
+     font-family: 'Clear Sans';
+    font-weight: bold;
+    font-size: 14pt;
+}
+#logo{
+    margin: -16px 0 0 30px;
+    border-radius: 30px;
+    width: 60px;
+    height: 50px;
+}
+#main_div{
+    background: #f6f6f6;
+    margin: -20px 0 0 0;
+}
+
+#namediv{
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
+#namehead{
+    color: #343434;
+    text-align: center;
+    padding: 180px 0 0 0 ;
+   
+}
+
+#title{
+    font-size: 30pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    text-shadow:  4px 4px 4px #aaa;
+}
+#titlename{
+    font-size: 25pt;
+    font-family: 'Clear Sans';
+    text-shadow:  4px 4px 4px #aaa;
+}
+#btnreach{
+    font-size: 18pt;
+    font-family: 'Clear Sans';
+    background: #343434;
+    color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+     transition: all 0.2s ease-in-out;
+}
+#btnreach:hover{
+    font-size: 18pt;
+    font-family: 'Clear Sans';
+    background: #B4B0AB;
+    color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+      color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 92, .4);
+    
+}
+#aboutdiv{
+    background: #B4B0AB;
+    
+}
+#aboutinnerdiv{
+    margin: 25px 25px  25px 50px;
+}
+
+#abouttitle{
+    font-size: 30pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 250px 0 0 70px ;
+    text-shadow:  4px 4px 4px #aaa;
+}
+#about{
+    font-size: 16pt;
+    font-family: 'Clear Sans';
+    color: #343434;
+    padding: 15px 60px 0 70px ; 
+
+}
+#aboutimage{
+    margin: 50px 50px 50px -20px;
+    height: 527.6;
+    width: 486.4;
+}
+#aboutimage {
+  position: relative;
+  -webkit-animation: linear;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards; /* Stop at the last keyframe */
+  -webkit-animation-iteration-count:1; /* Run the animation only once */
+}
+
+@-webkit-keyframes run {
+  0% {
+    left: 15%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+#experiencediv{
+    background: #FFFFFF;
+}
+#expinnerdiv{
+   
+}
+#exptitle{
+    font-size: 30pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 80px 0 0 60px ; 
+    text-shadow:  4px 4px 4px #aaa;
+}
+#headingdetail{
+    font-size: 22pt;
+    font-family: 'Clear Sans';
+    color: #343434;
+    text-shadow:  4px 4px 4px #aaa;
+    
+}
+#detaildiv{
+    font-size: 18pt;
+    font-family: 'Clear Sans';
+    color: #343434;
+    padding: 100px 0 0 50px ; 
+}
+
+#skilltitle{
+     font-size: 30pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 60px 0 0 40px ; 
+}
+
+#skilldiv{
+     margin: 25px 25px  70px 80px;
+}
+#skilltitle{
+   font-size: 30pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 80px 0 0 60px ; 
+    text-shadow:  4px 4px 4px #aaa;
+}
+#skill{
+     font-size: 25pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 80px 0 0 40px ; 
+    text-shadow:  4px 4px 4px #aaa;
+}
+#skillsdetail{
+     font-size: 20pt;
+    font-family: 'Clear Sans';
+    color: #343434;
+    padding: 10px 0 0 40px ; 
+}
+.progress-bar {
+  width: 530px;
+  background-color: #B4B0AB;
+  height: 25px;
+  border-radius: 2px;
+  margin: 0 0 0 40px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #000000; 
+  border-radius: 2px;
+}
+
+
+#language{
+     font-size: 25pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    color: #343434;
+    padding: 80px 0 0 40px ; 
+    text-shadow:  4px 4px 4px #aaa;
+}
+#languagedetail{
+     font-size: 20pt;
+    font-family: 'Clear Sans';
+    color: #343434;
+    padding: 10px 0 0 40px ; 
+}
+
+#work{
+    background: #343434;
+}
+#worktitle{
+    font-size: 34pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0 0 0 ; 
+    text-shadow:  4px 4px 4px #aaa;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.212);
+    background: #B4B0AB;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+
+}
+
+.card img{
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.212);
+    border-radius: 10px;
+    z-index: 10;
+    transition: all .4s;
+}
+.card:hover img{
+    margin-top: -150px;
+}
+#card1::before{
+    content: 'Behold my creation: a flawless Bata website clone! Discover a seamless shopping experience with an extensive collection of trendy footwear. Step into the world of shoes like never before!';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51,51,51);
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Clear Sans';
+    color: white;
+}
+
+#card2::before{
+    content: 'Pass4sure website: Your ultimate destination for exam success with reliable preparation materials. Excel in certifications with Pass4sure effective study resources.';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51,51,51);
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Clear Sans';
+    color: white;
+}
+#card3::before{
+    content: 'Nike website clone! Experience the essence of Nike original site with a vast collection of sportswear and footwear, delivering a seamless shopping experience for all sports enthusiasts.';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51,51,51);
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Clear Sans';
+    color: white;
+}
+#card1{
+        margin: 50px 0 100px 150px;
+}
+#card2{
+        margin: 50px 0 100px 85px;
+}
+#card3{
+        margin: 50px 0 100px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#reachimage{
+    margin: 10px 0 10px 25px;
+}
+
+#reach_div{
+    background: #000000;
+    margin: -20px 0 0 0;
+}
+
+#rachdiv{
+    margin: 25px 0 25px 0;
+    text-align: left;
+}
+#reachhead{
+    color: #fff;
+    text-align: left;
+    padding: 100px 0 0 60px ;
+   
+}
+#reachout{
+    font-family: 'Clear Sans';
+    font-weight: bold;
+}
+
+#name{
+    font-size: 18pt;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    padding: 50px 0 0 0;
+}
+#gmail{
+    font-size: 14pt;
+    font-family: 'Clear Sans';
+
+}
+#number{
+    font-size: 14pt;
+    font-family: 'Clear Sans';
+  
+}
+
+#cv{
+    color: white;
+    font-size: 14pt;
+    font-family: 'Clear Sans';
+}
+#cv:hover{
+    color:Red; 
+    list-style-type: none;
+    text-decoration: none;
+}
+#contactme{
+    font-size: 14pt;
+    font-family: 'Clear Sans';
+    padding: 80px 0 0 0;
+}
+#Linkdin{
+    margin: 10px 10px 0 0;
+}
+#Instagram{
+    margin: 10px 10px 0 10px;
+}
+#Github{
+    margin: 10px 10px 0 10px;
+}
+#Twitter{
+    margin: 10px 10px 0 10px;
+}
+
